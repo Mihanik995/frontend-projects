@@ -1,0 +1,36 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background-color: skyblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stopwatch-container {
+    text-align: center;
+    background-color: #eee;
+    padding: 0 30px 30px 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    width: 8vw;
+}
+#stopwatch {
+    font-size: 4vh;
+    margin-bottom: 2vh;
+    color: #333;
+    /* border: 2px solid #333; */
+    padding: 10px;
+    border-radius: 10px;
+}
+button {
+    cursor: pointer;
+    background-color: rgba(0,0,255,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+button:hover {
+    opacity: 0.8;
+}
